@@ -1,14 +1,11 @@
-# rule-node-examples-ui-ngx
-
 Configuration UI for IoToP Rule Nodes
 
 ## Build steps
 
-1) Switch to iotop-rel-3.3 branch
+1) Switch to iotop/release-3.3 branch
     ```
-    git checkout iotop-rel-3.3
+    git checkout iotop/release-3.3
     ```
-
 2) Cleanup
     ```
     yarn run cleanup 
