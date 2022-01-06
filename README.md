@@ -1,14 +1,19 @@
 # rule-node-examples-ui-ngx
 
-Configuration UI for Custom Rule Nodes from rule-node-examples ThingsBoard repository
+Configuration UI for IoToP Rule Nodes
 
 ## Build steps
 
-1) Cleanup
+1) Switch to iotop-rel-3.3 branch
+    ```
+    git checkout iotop-rel-3.3
+    ```
+
+2) Cleanup
     ```
     yarn run cleanup 
     ```
-2) Get ThingsBoard UI dependency
+2) Get IoToP UI dependency
     ```
     yarn run getthingsboard 
     ```
@@ -24,11 +29,11 @@ Configuration UI for Custom Rule Nodes from rule-node-examples ThingsBoard repos
     ```
     ./target/generated-resources/public/static/custom-nodes-config.js
     ```
-5) Deploy Rule Nodes UI JavaScript code to to rule-node-examples
+5) Deploy Rule Nodes UI JavaScript code to iotop-rule-nodes
 
     Resulting **custom-nodes-config.js**
-    should be copied to ```rule-node-examples/src/main/resources/public/static/rulenode/```
-    directory of rule-node-examples repository.
+    should be copied to ```iotop-rule-nodes/src/main/resources/public/static/rulenode/```
+    directory of iotop-rule-nodes repository.
 
 6) Run Rule Nodes UI in hot redeploy mode
 
