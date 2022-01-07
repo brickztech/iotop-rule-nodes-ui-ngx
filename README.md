@@ -12,7 +12,7 @@ Configuration UI for IoToP Rule Nodes
     ```
 2) Get IoToP UI dependency
     ```
-    yarn run getthingsboard 
+    yarn run get:iotop 
     ```
 3) Install dependencies
     ```
